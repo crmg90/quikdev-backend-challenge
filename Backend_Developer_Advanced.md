@@ -25,6 +25,14 @@ Build a RESTful API that can `get/create/update/delete` user data from a persist
 
 ## Requirements
 
+### Tech stack
+
+- **Provide a Docker stack (give the reviewers a happy day and they will thank you)**
+- Use TypeScript
+- Use NodeJS with any or no framework.
+- **Mongo DB**
+- **PROVIDE CLEAR README INFORMATION!!** Like versions required, step-by-step to setup environment, etc
+
 ### Functionality
 
 - The API should follow typical RESTful API design pattern.
@@ -32,16 +40,9 @@ Build a RESTful API that can `get/create/update/delete` user data from a persist
 - Provide proper API document.
 - Provide proper unit test.
 
-### Tech stack
-
-- **Provide a Docker stack (give the reviewers a happy day and they will thank you)**
-- Use Node.js with any or no framework.
-- Use any DB. Mongo DB is **highly preferred**.
-- Provide  **CLEAR README**  information like versions required, step-by-step to setup environment, etc
 
 ### Bonus
 
-- Write clear documentation on how it's designed and how to run the code.
 - Write good in-code comments.
 - Write good commit messages.
 
