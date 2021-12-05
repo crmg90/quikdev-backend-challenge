@@ -12,11 +12,19 @@ localmente é necessário rodar o comando:
 
     npm install -g @foal/cli
 
-Para rodar o projeto é necessário o comando 
+OBS.: a versão do node precisa ser superior a versão 10
+
+<br/>
+Para rodar o projeto no modo desenvolvimento é necessário o comando 
 
     npm run develop
 
 por default o projeto está configurado para rodar na porta 3001
+
+<br/>
+para rodar o container precisa apenas do docker-compose e rodar o comando:
+
+    docker-compose up
 
 
 <br/>
