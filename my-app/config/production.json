@@ -1,0 +1,9 @@
+{
+  "database": {
+    "type": "mongodb",
+    "url": "mongodb+srv://quikdev:quikdev@cluster0.xl5oh.mongodb.net",
+    "database": "quikdev",
+    "username": "quikdev",
+    "password": "quikdev"
+  }
+}

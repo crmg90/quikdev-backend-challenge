@@ -1,0 +1,22 @@
+{
+  "port": "env(PORT)",
+  "settings": {
+    "loggerFormat": "tiny",
+    "jwt": {
+      "secret": "lHDHai5VRxpNHgkdCni44FPrhIx6Qr3x9lU0GbauqMg=",
+      "secretEncoding": "base64",
+      "tokenLife":"2m",
+      "refreshTokenLife":"1h"
+    },
+    "ajv":{
+      "allErrors": true
+    }
+  },
+  "database": {
+    "type": "mongodb",
+    "url": "mongodb+srv://quikdev:quikdev@cluster0.xl5oh.mongodb.net",
+    "database": "quikdev",
+    "username": "quikdev",
+    "password": "quikdev"
+  }
+}

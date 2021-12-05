@@ -1,0 +1,16 @@
+version: "3"
+services:
+  node:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: nodeapp
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./my-app/:/home/node/app
+    command: "npm run prod"
+    ports:
+      - 3001:3001
