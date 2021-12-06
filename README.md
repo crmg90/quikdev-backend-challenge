@@ -124,7 +124,7 @@ Body:
     } 
 
 <br/>
-<h4>3.1.3 Editar usuário </h4>
+<h4>3.1.3 Editar usuário (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                              | Objetivo               |
 | ---------:|-------------------------------------:| ----------------------:|
@@ -142,14 +142,14 @@ Body:
     } 
 
 <br/>
-<h4>3.1.4 Deletar usuário </h4>
+<h4>3.1.4 Deletar usuário (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                              | Objetivo               |
 | ---------:|-------------------------------------:| ----------------------:|
 | DELETE    |http://localhost:3001/api/v1/user     | Quando o usuário deseja excluir sua conta
 
 <br/>
-<h4>3.1.5 Alterar localização do usuário </h4>
+<h4>3.1.5 Alterar localização do usuário (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                              | Objetivo               |
 | ---------:|-------------------------------------:| ----------------------:|
@@ -164,14 +164,14 @@ Body:
 
 <br/>
 
-<h4>3.1.6 Friends </h4>
+<h4>3.1.6 Friends  (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                                      | Objetivo               |
 | ---------:|---------------------------------------------:| ----------------------:|
 | GET       |http://localhost:3001/api/v1/user/friends     | Listar todos os amigos
 
 <br/>
-<h4>3.1.7 Delete friend </h4>
+<h4>3.1.7 Delete friend  (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                                           | Objetivo               |
 | ---------:|--------------------------------------------------:| ----------------------:|
@@ -179,7 +179,7 @@ Body:
 
 
 <br/>
-<h4>3.1.8 Peoples nearby </h4>
+<h4>3.1.8 Peoples nearby  (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                                                         | Objetivo               |
 | ---------:|----------------------------------------------------------------:| ----------------------:|
@@ -189,7 +189,7 @@ Params:
 - distance: distância em quilômetros.
 
 <br/>
-<h4>3.1.9 Friends nearby </h4>
+<h4>3.1.9 Friends nearby  (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                                                                 | Objetivo               |
 | ---------:|------------------------------------------------------------------------:| ----------------------:|
@@ -199,7 +199,7 @@ Params:
 - distance: distância em quilômetros.
 
 <br/>
-<h4>3.1.10 Invitation </h4>
+<h4>3.1.10 Invitation  (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                                                    | Objetivo               |
 | ---------:|-----------------------------------------------------------:| ----------------------:|
@@ -209,7 +209,7 @@ Params:
 - id: id do usuário.
 
 <br/>
-<h4>3.1.11 Accept invite </h4>
+<h4>3.1.11 Accept invite  (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                                                    | Objetivo               |
 | ---------:|-----------------------------------------------------------:| ----------------------:|
@@ -219,7 +219,7 @@ Params:
 - id: id do usuário.
 
 <br/>
-<h4>3.1.12 Reject invite </h4>
+<h4>3.1.12 Reject invite  (necessário autenticação)</h4>
 
 | Tipo      |Endpoint                                                    | Objetivo               |
 | ---------:|-----------------------------------------------------------:| ----------------------:|
@@ -230,7 +230,7 @@ Params:
 
 <br/>
 <br/>
-<h4>3.2 Endpoints exclusivos</h4>
+<h4>3.2 Endpoints exclusivos  (em todos é necessário a autenticação e perfil de administrador)</h4>
 
 <h4>3.2.1 List all users </h4>
 
