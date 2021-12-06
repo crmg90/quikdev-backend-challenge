@@ -11,6 +11,8 @@ services:
       - NODE_ENV=production
     volumes:
       - ./my-app/:/home/node/app
-    command: "npm run prod"
+    command: >
+      sh -c "NODE_ENV=development npm install &&
+             npm run build && node ./build/index.js"
     ports:
       - 3001:3001
